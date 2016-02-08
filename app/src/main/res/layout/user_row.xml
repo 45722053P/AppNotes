@@ -6,12 +6,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="New Text"
-        android:id="@+id/intriducido" />
+        android:text="Titulo:"
+        android:id="@+id/titulo" />
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="New Text"
-        android:id="@+id/localizacion" />
 </LinearLayout>

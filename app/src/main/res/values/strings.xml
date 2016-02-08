@@ -2,4 +2,5 @@
     <string name="app_name">AppMappNotes</string>
     <string name="action_settings">Settings</string>
     <string name="title_activity_adaptador_firebase">adaptadorFirebase</string>
+    <string name="title_activity_detalles">DetallesActivity</string>
 </resources>

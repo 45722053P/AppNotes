@@ -2,27 +2,51 @@ package com.example.appmappnotes;
 
 
 public class Nota {
-
-    private String nota;
-    private String localizacion;
+    private String titulo;
+    private String descripcion;
+    private double longitude;
+    private double latitude;
 
     public Nota() {
 
     }
-    public Nota(String nota, String localizacion) {
-        this.nota = nota;
-        this.localizacion = localizacion;
+
+    public Nota(String titulo, double latitude, double longitude, String descripcion) {
+        this.titulo = titulo;
+        this.latitude = latitude;
+        this.longitude = longitude;
+        this.descripcion = descripcion;
     }
 
-    public String getlocalizacion() {
-
-        return localizacion;
-
+    public String getTitulo() {
+        return titulo;
     }
 
-    public String getnota() {
+    public void setTitulo(String titulo) {
+        this.titulo = titulo;
+    }
 
-        return nota;
+    public String getDescripcion() {
+        return descripcion;
+    }
 
+    public void setDescripcion(String descripcion) {
+        this.descripcion = descripcion;
+    }
+
+    public double getLongitude() {
+        return longitude;
+    }
+
+    public void setLongitude(double longitude) {
+        this.longitude = longitude;
+    }
+
+    public double getLatitude() {
+        return latitude;
+    }
+
+    public void setLatitude(double latitude) {
+        this.latitude = latitude;
     }
 }
